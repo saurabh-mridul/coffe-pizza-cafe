@@ -1,0 +1,38 @@
+{
+  "app": {
+    "name": "Coffee-Pizza Cafe",
+    "tagline": "Where coffee meets pizza"
+  },
+  "auth": {
+    "signIn": "Sign in with Microsoft",
+    "signOut": "Sign out",
+    "signingIn": "Signing you in...",
+    "signingOut": "Signing you out...",
+    "sessionExpiring": "Your session is about to expire",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "error": {
+      "title": "Authentication Error",
+      "generic": "An error occurred during authentication. Please try again.",
+      "cancelled": "Sign-in was cancelled.",
+      "popupBlocked": "Pop-up was blocked. Please allow pop-ups for this site.",
+      "networkError": "Network error. Please check your connection."
+    }
+  },
+  "greeting": {
+    "welcome": "Welcome",
+    "welcomeUser": "Welcome, {{name}}!",
+    "welcomeGuest": "Welcome to Coffee-Pizza Cafe!"
+  },
+  "home": {
+    "title": "Coffee-Pizza Cafe",
+    "subtitle": "Your favorite spot for coffee and pizza",
+    "signInPrompt": "Sign in to access your account"
+  },
+  "loading": {
+    "default": "Loading...",
+    "authenticating": "Authenticating..."
+  },
+  "header": {
+    "brand": "Coffee-Pizza Cafe"
+  }
+}

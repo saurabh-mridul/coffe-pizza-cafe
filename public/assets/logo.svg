@@ -1,0 +1,8 @@
+<!-- Coffee-Pizza Cafe Logo Placeholder - Replace with actual logo -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="45" stroke="#6B4423" stroke-width="4" fill="#FFF8E7"/>
+  <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6B4423">Coffee</text>
+  <text x="50" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#D4451E">🍕☕</text>
+  <text x="50" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6B4423">Pizza</text>
+  <text x="50" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#8B7355">Cafe</text>
+</svg>

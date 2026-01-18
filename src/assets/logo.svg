@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Coffee cup and pizza slice combined logo -->
+  <defs>
+    <linearGradient id="coffeeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5A2B"/>
+      <stop offset="100%" style="stop-color:#6B4423"/>
+    </linearGradient>
+    <linearGradient id="pizzaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFA500"/>
+      <stop offset="100%" style="stop-color:#FF8C00"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Coffee cup (left side) -->
+  <path d="M8 24 L8 48 Q8 56 16 56 L24 56 Q28 56 28 52 L28 24 Z" fill="url(#coffeeGradient)"/>
+  <!-- Cup handle -->
+  <path d="M28 28 Q36 28 36 36 Q36 44 28 44" fill="none" stroke="#6B4423" stroke-width="3"/>
+  <!-- Steam -->
+  <path d="M14 20 Q16 14 14 8" fill="none" stroke="#8B7355" stroke-width="2" stroke-linecap="round"/>
+  <path d="M20 18 Q22 12 20 6" fill="none" stroke="#8B7355" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Pizza slice (right side) -->
+  <path d="M44 8 L56 56 L32 56 Z" fill="url(#pizzaGradient)"/>
+  <!-- Pizza crust -->
+  <path d="M44 8 L56 56" stroke="#D4A574" stroke-width="4" stroke-linecap="round"/>
+  <!-- Pepperoni dots -->
+  <circle cx="44" cy="32" r="3" fill="#C41E3A"/>
+  <circle cx="48" cy="44" r="2.5" fill="#C41E3A"/>
+  <circle cx="40" cy="48" r="2" fill="#C41E3A"/>
+</svg>
