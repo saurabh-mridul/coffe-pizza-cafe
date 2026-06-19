@@ -7,3 +7,4 @@
 
 export { LoadingSpinner, type LoadingSpinnerProps } from './LoadingSpinner';
 export { Header, type HeaderProps } from './Header';
+export { MenuSection } from './MenuSection';
