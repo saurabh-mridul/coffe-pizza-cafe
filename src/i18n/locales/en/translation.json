@@ -26,7 +26,37 @@
   "home": {
     "title": "Coffee-Pizza Cafe",
     "subtitle": "Your favorite spot for coffee and pizza",
-    "signInPrompt": "Sign in to access your account"
+    "signInPrompt": "Sign in to access your account",
+    "menuTitle": "Our Menu",
+    "menuSubtitle": "Freshly prepared with love"
+  },
+  "menu": {
+    "coffee": {
+      "title": "Coffee",
+      "espresso": "Espresso",
+      "espressoDesc": "Rich and bold single shot",
+      "cappuccino": "Cappuccino",
+      "cappuccinoDesc": "Espresso with steamed milk foam",
+      "latte": "Latte",
+      "latteDesc": "Smooth espresso with creamy milk",
+      "americano": "Americano",
+      "americanoDesc": "Espresso diluted with hot water",
+      "mocha": "Mocha",
+      "mochaDesc": "Espresso with chocolate and steamed milk"
+    },
+    "pizza": {
+      "title": "Pizza",
+      "margherita": "Margherita",
+      "margheritaDesc": "Classic tomato, mozzarella & fresh basil",
+      "pepperoni": "Pepperoni",
+      "pepperoniDesc": "Loaded with spicy pepperoni slices",
+      "veggie": "Veggie Supreme",
+      "veggieDesc": "Bell peppers, olives, mushrooms & onions",
+      "bbqChicken": "BBQ Chicken",
+      "bbqChickenDesc": "Grilled chicken with tangy BBQ sauce",
+      "fourCheese": "Four Cheese",
+      "fourCheeseDesc": "Mozzarella, cheddar, parmesan & gouda"
+    }
   },
   "loading": {
     "default": "Loading...",

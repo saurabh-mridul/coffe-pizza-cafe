@@ -2,7 +2,7 @@
  * HomePage Component
  *
  * @module pages/HomePage/HomePage
- * @description Main landing page with authentication-aware content
+ * @description Main landing page with public menu and authentication-aware content
  * @feature 001-sso-home-page
  */
 
@@ -18,6 +18,7 @@ import {
 } from '@fluentui/react-components';
 import { useTranslation } from 'react-i18next';
 import { UserGreeting, SignInButton } from '@/features/auth';
+import { MenuSection } from '@/components';
 
 /**
  * HomePage Props
@@ -36,7 +37,6 @@ const useStyles = makeStyles({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'center',
     padding: tokens.spacingHorizontalXXL,
     backgroundColor: tokens.colorNeutralBackground2,
   },
@@ -77,13 +77,9 @@ const useStyles = makeStyles({
  * HomePage Component
  *
  * Main landing page that displays:
+ * - Menu items (visible to all users without login)
  * - Authenticated: Personalized greeting with user info
  * - Unauthenticated: Welcome message with sign-in prompt
- *
- * @example
- * ```tsx
- * <HomePage />
- * ```
  */
 export function HomePage({ className }: HomePageProps): React.JSX.Element {
   const styles = useStyles();
@@ -123,6 +119,8 @@ export function HomePage({ className }: HomePageProps): React.JSX.Element {
           </Card>
         </UnauthenticatedTemplate>
       </div>
+
+      <MenuSection />
     </main>
   );
 }
